@@ -8,7 +8,7 @@ data class Result<Boolean>(
     val message: String = "request success"
 )
 
-data class CommonStatus<Boolean, T>(
+data class DataResult<Boolean, T>(
     val result: Result<Boolean>,
     val data: T
 )
