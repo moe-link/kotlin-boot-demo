@@ -1,4 +1,4 @@
-package com.doporro.demo.model
+package com.doporro.demo.result
 
 import java.time.LocalDateTime
 

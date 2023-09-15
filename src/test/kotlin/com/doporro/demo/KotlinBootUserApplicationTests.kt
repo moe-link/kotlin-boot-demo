@@ -2,7 +2,7 @@ package com.doporro.demo
 
 import org.junit.jupiter.api.Test
 
-class KotlinBootDemoApplicationTests {
+class KotlinBootUserApplicationTests {
 
     @Test
     fun contextLoads() {
