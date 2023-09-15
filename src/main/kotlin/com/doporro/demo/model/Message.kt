@@ -7,14 +7,14 @@ import javax.persistence.GenerationType
 import javax.persistence.Id
 
 @Entity
-data class User(
+data class Message(
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    val id: Long  = 0,
+    val id: Long,
 
     @Column(nullable = false)
-    val name: String,
+    val info: String,
 ) {
     constructor() : this(0, "")
 }
