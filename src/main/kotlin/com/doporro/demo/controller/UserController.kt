@@ -14,6 +14,9 @@ import org.springframework.web.bind.annotation.RestController
 @RequestMapping(path = ["/user"])
 class UserController(private val userService: UserService) {
 
+    @GetMapping(path = ["/unit"])
+    fun getUnit() = Unit
+
     @GetMapping(path = ["/homepage"])
     fun getHomePage() = "Welcome Home Page"
 
