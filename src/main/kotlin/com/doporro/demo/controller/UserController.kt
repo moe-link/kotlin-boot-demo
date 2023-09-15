@@ -13,7 +13,7 @@ class UserController(private val userService: UserService) {
     @GetMapping(path = ["/homepage"])
     fun getHomePage() = "Welcome Home Page"
 
-    @GetMapping
+    @GetMapping(path = ["/list"])
     fun getAllDemos() : List<User> {
         return userService.getAllUsers()
     }
